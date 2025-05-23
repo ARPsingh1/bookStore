@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* @custom-variant light (&:where([data-theme=light], [data-theme=light] *)); */
+/* *{
+  background-color: rgb(245, 244, 241);
+  color: black;
+} */
+ 
