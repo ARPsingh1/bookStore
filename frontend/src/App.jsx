@@ -16,7 +16,7 @@ const App = () => {
     <div className='dark:bg-slate-900 dark:text-white'>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/course' element={authUser?<Courses />:<Navigate to='/signup'/>} />
+        <Route path='/course' element={authUser?<Course />:<Navigate to='/signup'/>} />
         <Route path='/add' element={<AddBook />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/contact' element={<Contactus />} />
