@@ -8,7 +8,7 @@ const Cards = ({ card, onDelete }) => {
     const handleDelete = async () => {
         try {
             // await axios.delete(`http://localhost:8080/book/${card._id}`);
-            await axios.delete(`https://bookstore-uv14.onrender.com/book/${card._id}`);
+            await axios.delete(`https://bookstore-2s5c.onrender.com/book/${card._id}`);
             onDelete(card._id); // notify parent to remove from UI
         } catch (error) {
             console.error("Failed to delete book", error);

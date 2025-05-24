@@ -19,7 +19,7 @@ const Signup = () => {
             password: data.password
         }
         // await axios.post('http://localhost:8080/user/signup', userInfo)
-        await axios.post('https://bookstore-uv14.onrender.com/user/signup', userInfo)
+        await axios.post('https://bookstore-2s5c.onrender.com/user/signup', userInfo)
             .then((res) => {
                 // console.log(res.data)
                 if (res.data) {
