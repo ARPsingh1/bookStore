@@ -10,7 +10,7 @@ const Banner = () => {
 
                             <h1 className="text-5xl">Welcome to the World of Books - Explore, Discover, Enjoy!</h1>
                             <p>Discover a wide selection of books across all genres, from timeless classics to the latest bestsellers. Find your next favorite read today!</p>
-                            <label className="input validator  w-full">
+                            {/* <label className="input validator  w-full">
                                 <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <g
                                         strokeLinejoin="round"
@@ -24,10 +24,10 @@ const Banner = () => {
                                     </g>
                                 </svg>
                                 <input type="email" placeholder="mail@site.com" required />
-                            </label>
+                            </label> */}
                         </div>
-                            <button className="btn btn-secondary mt-8">Secondary</button>
-                        <div className="validator-hint hidden">Enter valid email address</div>
+                            {/* <button className="btn btn-secondary mt-8">Secondary</button> */}
+                        {/* <div className="validator-hint hidden">Enter valid email address</div> */}
                     </div>
 
 

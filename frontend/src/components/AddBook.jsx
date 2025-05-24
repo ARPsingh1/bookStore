@@ -13,7 +13,8 @@ const AddBook = () => {
     } = useForm()
     const onSubmit = async (data) => {
         try {
-            const response = await fetch("http://localhost:8080/book", {
+            // const response = await fetch("http://localhost:8080/book", {
+            const response = await fetch("https://bookstore-uv14.onrender.com/book", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
