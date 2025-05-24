@@ -34,8 +34,6 @@ const Navbar = () => {
 
     const Navitem = (
         <>
-            import { NavLink } from 'react-router-dom';
-
 <li><NavLink to="/">Home</NavLink></li>
 <li><NavLink to="/course">Course</NavLink></li>
 <li><NavLink to="/contact">Contact</NavLink></li>
