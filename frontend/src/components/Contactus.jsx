@@ -7,7 +7,8 @@ const Contactus = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-    formData.append("access_key", "c19e3dd4-ff3e-4480-a2c5-cd1040093f11");
+    // formData.append("access_key", "c19e3dd4-ff3e-4480-a2c5-cd1040093f11");
+    formData.append("access_key", "4df43386-fd83-4601-ba4a-0ef36bb8c495");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -45,19 +46,19 @@ const Contactus = () => {
             <img src={mail} alt="Mail" className="w-6" />
             <a
               className="underline hover:text-pink-300"
-              href="mailto:rajukushwaha210361@gmail.com"
+              href="mailto:arpitaingh134@gmail.com"
             >
-              rajukushwaha210361@gmail.com
+              arpitaingh134@gmail.com
             </a>
           </div>
 
           <div className="flex items-center gap-3">
             <img src={phone} alt="Phone" className="w-6" />
             <a
-              href="tel:+916386478591"
+              href="tel:+918081252342"
               className="underline hover:text-pink-300"
             >
-              6386478591
+              8081252342
             </a>
           </div>
 
@@ -69,11 +70,11 @@ const Contactus = () => {
             />
             <a
               className="underline hover:text-pink-300"
-              href="https://www.instagram.com/mr_rajukushwaha/"
+              href="https://www.instagram.com/arpit_singh1524/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              mr_rajukushwaha
+              arpit_singh1524
             </a>
           </div>
 
